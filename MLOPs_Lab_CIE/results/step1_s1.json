@@ -1,0 +1,18 @@
+{
+    "experiment_name": "soundforge-mix-quality-score",
+    "models": [
+        {
+            "name": "SVR",
+            "mae": 12.717742376779624,
+            "rmse": 13.548877899354618
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 6.436616731451174,
+            "rmse": 7.369915966890071
+        }
+    ],
+    "best_model": "GradientBoosting",
+    "best_metric_name": "mae",
+    "best_metric_value": 6.436616731451174
+}
