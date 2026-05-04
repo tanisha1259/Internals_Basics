@@ -43,7 +43,7 @@ for name, model in models.items():
         mlflow.log_metric("rmse", rmse)
         mlflow.set_tag("team", "ml_engineering")
 
-        mlflow.sklearn.log_model(model, name)
+        mlflow.sklearn.log_model(model, "model")
 
         results.append({
             "name": name,

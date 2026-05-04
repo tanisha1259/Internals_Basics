@@ -8,11 +8,11 @@
         },
         {
             "name": "GradientBoosting",
-            "mae": 6.436616731451174,
-            "rmse": 7.369915966890071
+            "mae": 6.444822366624183,
+            "rmse": 7.382032816312842
         }
     ],
     "best_model": "GradientBoosting",
     "best_metric_name": "mae",
-    "best_metric_value": 6.436616731451174
+    "best_metric_value": 6.444822366624183
 }
